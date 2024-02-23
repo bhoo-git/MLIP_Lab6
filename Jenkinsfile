@@ -19,7 +19,7 @@ pipeline {
                 python3 -m venv venv
                 source venv/bin/activate
 
-                pip install pytest
+                pip install pytest pandas numpy scikit-learn
 
                 # TODO Complete the command to run pytest
                 pytest
